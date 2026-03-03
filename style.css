@@ -1,7 +1,38 @@
-#introducao {
+.introducao {
 background-color: rgb(rgb(89, 174, 243));
+margin: 20px;
+padding: 30px;
+border-radius: 15px;
+
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
 
+.texto {
+    max-width: 400px;
+}
+
+button {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    background-color: rgb(rgb(89, 205, 252));
+    color: rgb(0, 0, 0);
+}
+
+h3{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: solid;
+    border-radius: 15px;
+}
 
 
 
