@@ -71,14 +71,53 @@ h3{
 
 
 
+body{
 
-
-
-
-
-
-
-h1{
-background-color: rgba(184, 183, 183, 0.685);
+margin: 0;
 
 }
+
+
+.cabecalho{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dadcdd;
+    padding: 10px 20px;
+    border-bottom: 5px solid #b9b8b8;
+
+}
+
+.cabecalho_alto{
+
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+
+
+}
+
+.cabecalho_baixo{
+
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.botao1{
+
+    padding: 8px 14px;
+    border: 1px solid rgb(194, 194, 194);
+  
+    border-radius: 4px;
+   
+}
+
+.botao2{
+
+    background-color: #e2e2e2;
+
+}
+
