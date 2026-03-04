@@ -1,38 +1,67 @@
-.introducao {
-background-color: rgb(rgb(89, 174, 243));
+#introducao {
+background-color:rgb(89, 174, 243);
 margin: 20px;
 padding: 30px;
 border-radius: 15px;
 
 display: flex;
-justify-content: space-around;
+justify-content: flex-start;
 align-items: center;
 }
 
+
+.conteudo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
 .texto {
     max-width: 400px;
+    display: flex;
+    align-items: flex-start;
 }
 
 button {
     display: block;
     margin: 10px;
     padding: 10px;
-    border: solid;
+    border: solid 1px black;
     border-radius: 20px;
-    background-color: rgb(rgb(89, 205, 252));
+    background-color:rgb(89, 205, 252);
     color: rgb(0, 0, 0);
 }
 
+.h1 {
+    font-size: 2em;
+    margin: 0;
+    line-height: 1.2;
+    color: #0a2c4d;
+    text-align: left;
+}
+
+.p {
+    font-size: 1.5em;
+    margin-top: 5px;
+    color: #0f3b55;
+    text-align: left;
+}
+
+
 h3{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
     text-align: center;
     background-color: blue;
     color: white;
-    border: solid;
     border-radius: 15px;
+    padding: 10px;
 }
+
+.img_robo {
+height: auto;
+margin-bottom: 10px;
+width: 80px;
+}
+
 
 
 
